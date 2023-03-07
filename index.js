@@ -1,4 +1,4 @@
-import { Book } from './modules/book_class.js';
+// import Book from './modules/book_class.js';
 import { saveLocal } from
 './modules/localStorage_Functions.js';
 import {
@@ -9,10 +9,9 @@ import {
   links, browse,
 } from './modules/show_hide.js';
 
-import { timeDate } from './modules/date_time.js';
+import timeDate from './modules/date_time.js';
 
 window.onload = () => {
-  const start = new Book();
   setInterval(timeDate, 1000);
   addBtn.addEventListener('click', () => {
     create();
