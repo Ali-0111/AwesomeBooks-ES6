@@ -177,10 +177,9 @@ Feel free to check the [issues page](../../issues/).
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
+-Thank you to Microverse Inc.
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 This work is licensed by <a rel="license" href="./LICENSE">MIT </a>.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
