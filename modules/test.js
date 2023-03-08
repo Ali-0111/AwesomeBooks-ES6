@@ -1,8 +1,8 @@
 import { saveLocal, collectionMethod } from './localStorage_Functions.js';
 
 export const addBtn = document.querySelector('.add-btn');
-/*eslint-disable*/
-export let collection = collectionMethod();
+
+let collection = collectionMethod();
 
 const lstTitle = document.querySelector('.lst-title');
 const ul = document.querySelector('.lst');
@@ -46,3 +46,7 @@ export const clearPlaceHolder = () => {
   title.value = '';
   author.value = '';
 };
+
+export function getCollection() {
+  return collection;
+}

@@ -1,8 +1,7 @@
-// import Book from './modules/book_class.js';
 import { saveLocal } from
 './modules/localStorage_Functions.js';
 import {
-  addBtn, create, collection, createList, clearPlaceHolder,
+  addBtn, create, getCollection, createList, clearPlaceHolder,
 } from './modules/test.js';
 
 import {
@@ -15,11 +14,11 @@ window.onload = () => {
   setInterval(timeDate, 1000);
   addBtn.addEventListener('click', () => {
     create();
-    saveLocal(collection);
+    saveLocal(getCollection());
     clearPlaceHolder();
   });
 
-  collection.forEach((element) => {
+  getCollection().forEach((element) => {
     createList(element);
   });
 
